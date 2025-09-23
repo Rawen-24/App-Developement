@@ -1,6 +1,11 @@
 /* 
  Author: Rawen Jendoubi
- Project: Intelligent User Interface - Voice Notes Android  App*/
+ Project: Intelligent User Interface - Voice Notes Android  App
+ This MainActivity.java file is just a small glimpse of the initial draft of the project. In the final version, the app includes multiple activities,
+ such as inserting and updating notes, exporting notes to a PDF file, and managing them through a dedicated database (NotesDAO) that handles initialization and updates.
+ For the voice commands, I used Google’s Speech-to-Text API to convert speech into text, which allows users to interact with the app using natural voice commands.
+ No Firebase or external backend was used — the entire project was built from scratch by me, including the database and all activities.
+ */
 package com.example.voiceautomation;
 
 import androidx.annotation.Nullable;
@@ -52,4 +57,5 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
+
 
