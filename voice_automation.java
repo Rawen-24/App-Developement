@@ -1,4 +1,6 @@
-/*Author : Rawen Jendoubi*/
+/* 
+ Author: Rawen Jendoubi
+ Project: Intelligent User Interface - Voice Notes Android  App*/
 package com.example.voiceautomation;
 
 import androidx.annotation.Nullable;
@@ -50,3 +52,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
+
